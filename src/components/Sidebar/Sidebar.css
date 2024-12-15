@@ -1,0 +1,68 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+.sidebar {
+  width: 200px;
+  background-color: white;
+  border-right: 1px solid #e0e0e0;
+  padding: 1px;
+  padding-top: 15px;
+  position: fixed;
+  margin-top: 82px;
+  margin-right: 0px;
+  height: 100vh;
+}
+.small-width{
+    width: 50px;
+}
+
+.sidebar-menu,
+.subscriptions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item,
+.subscription-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.menu-item i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.menu-item:hover,
+.subscription-item:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.active {
+  color: red;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 15px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.subscriptions-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.subscription-item img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

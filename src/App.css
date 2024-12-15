@@ -1,0 +1,9 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+.container{
+  display: flex;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+
+}
